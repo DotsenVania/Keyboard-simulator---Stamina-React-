@@ -1,0 +1,1 @@
+export const setConsole = () => ({type: 'CONSOLE_LOG'})

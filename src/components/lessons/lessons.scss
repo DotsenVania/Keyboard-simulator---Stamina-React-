@@ -1,0 +1,62 @@
+.lesson {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    cursor: pointer; 
+    width: 200px;
+    height: 50px;
+    background-color: #000;
+    &:hover {
+        background-color: rgb(89, 87, 87);
+    }
+}
+
+.section1, .section2 {
+    width: 100vw; 
+    height: 100vh;
+}
+.section1{
+    position: relative;
+    transition: all ease 0.5s;
+    left:0;
+    &.active {
+        transition: all ease 0.5s;
+        left: -100%;
+    } 
+}
+.section2{
+    position: relative;
+    transition: all ease 0.5s;
+    left:0;
+    &.active {
+        transition: all ease 0.5s;
+        left: -100%;
+    } 
+}
+.all-wrapper{
+    display: flex; 
+    height: 100%;
+    overflow: hidden; 
+}
+
+.button__wrapper {
+    .list__lessons {
+        display: flex; 
+        width: 100vw;
+        justify-content: center;
+        .ukr {
+            height: 80vh;
+            overflow: auto;
+        }
+        .eng {
+            height: 80vh;
+            overflow: auto;
+        }
+        .lis__title {
+            font-size: 25px;
+        }
+    }
+
+}
+

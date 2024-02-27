@@ -1,0 +1,24 @@
+.wrapper {
+    .timer {
+        padding: 10px;
+        display: flex;
+        &__block {
+            display: flex;
+            font-size: 20px;
+            span{
+                position: relative; 
+                padding: 0 5px; 
+            }
+        }
+        .err, .speed {
+            font-size: 20px;
+            margin-left: 30px;
+        }
+        .descr {
+            font-size: 20px;
+            margin-left: 30px;
+            color: #d13100;  
+        }
+    }
+}
+
