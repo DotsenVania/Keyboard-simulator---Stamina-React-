@@ -1,1 +1,1 @@
-# Keyboard-simulator---Stamina-React-
+# Keyboard-simulator-Stamina-React
